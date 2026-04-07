@@ -90,3 +90,8 @@ button {
   border: none;
   border-radius: 4px;
 }
+
+.buttons {
+  display: flex;
+  gap: 16px;
+}

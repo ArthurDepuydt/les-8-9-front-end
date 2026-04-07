@@ -91,7 +91,7 @@ function App() {
             </div>
           </div>
         </section>
-        <section>
+        <section className="buttons">
           <button onClick={() => logButton("Meest verkocht eerst")}>
             Meest verkocht eerst
           </button>
