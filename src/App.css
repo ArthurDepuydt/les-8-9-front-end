@@ -1,0 +1,100 @@
+.verkoopsoverzichten {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.verkoopsoverzichtItem {
+  display: flex;
+  flex-grow: 1;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  flex-direction: column;
+}
+.verkoopsoverzichtItem div {
+  font-size: 24px;
+}
+
+.verkoopsoverzichtItem.groen {
+  border: 2px solid green;
+  background-color: rgba(0, 128, 0, 0.1);
+}
+
+.verkoopsoverzichtItem.blauw {
+  border: 2px solid blue;
+  background-color: rgba(0, 0, 255, 0.1);
+}
+
+.verkoopsoverzichtItem.geel {
+  border: 2px solid yellow;
+  background-color: rgba(255, 255, 0, 0.1);
+}
+
+.bestVerkopendeTv {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+  background-color: rgba(128, 128, 128, 0.1);
+  align-items: stretch;
+  padding: 24px;
+  border: 1px solid grey;
+}
+
+.bestVerkopendeTvAfbeelding {
+  flex-basis: 30%;
+  max-width: 50%;
+  width: auto;
+  height: auto;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+.bestVerkopendeTvInfo {
+  flex-basis: 50%;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+  min-height: 100%;
+  padding: 24px;
+}
+
+.bestVerkopendeTitel {
+  font-size: 24px;
+}
+
+.bestVerkopendePrice {
+  font-size: 32px;
+}
+
+section {
+  margin-top: 64px;
+}
+
+.checkicon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.bestVerkopendeTvOpties {
+  display: flex;
+  gap: 16px;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.buttons {
+  display: flex;
+  gap: 16px;
+}
